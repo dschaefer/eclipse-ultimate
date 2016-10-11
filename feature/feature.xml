@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="doug.eclipse.ultimate"
+      label="Eclipse Ultimate"
+      version="1.0.0.qualifier"
+      provider-name="Doug"
+      plugin="doug.eclipse.ultimate.application">
+
+   <description url="http://eclipse.org/epp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="doug.eclipse.ultimate.application"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
