@@ -2,9 +2,10 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
+         id="doug.eclipse.ultimate"
          point="org.eclipse.core.runtime.products">
       <product
-            application="doug.eclipse.ultimate"
+            application="org.eclipse.ui.ide.workbench"
             name="Eclipse Ultimate">
          <property
                name="preferenceCustomization"

@@ -57,6 +57,8 @@
 
    <features>
       <feature id="doug.eclipse.ultimate"/>
+      <feature id="org.eclipse.epp.mpc"/>
+      <feature id="org.eclipse.epp.logging.aeri.feature"/>
 
       <feature id="org.eclipse.platform" installMode="root"/>
       <feature id="org.eclipse.platform.source" installMode="root"/>
