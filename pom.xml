@@ -61,12 +61,17 @@
 			<url>http://download.eclipse.org/tm/terminal/builds/development/nightly/</url>
 			<layout>p2</layout>
 		</repository>
-
+		<repository>
+			<id>Angular 2</id>
+			<url>http://oss.opensagres.fr/angular2-eclipse/1.1.0-SNAPSHOT/</url>
+			<layout>p2</layout>
+		</repository>
 	</repositories>
 	<modules>
 		<module>product</module>
 		<module>application</module>
 		<module>feature</module>
+		<module>installer</module>
 	</modules>
 	<build>
 		<plugins>

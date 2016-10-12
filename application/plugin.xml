@@ -65,5 +65,17 @@
          </property>
       </product>
    </extension>
+   <extension
+         id="installer"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="singleton-global"
+            thread="main"
+            visible="true">
+         <run
+               class="doug.eclipse.ultimate.application.InstallerApplication">
+         </run>
+      </application>
+   </extension>
 
 </plugin>

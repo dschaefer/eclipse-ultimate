@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="Eclipse Ultimate" uid="doug.eclipse.ultimate" application="org.eclipse.ui.ide.workbench" version="0.0.1" useFeatures="true" includeLaunchers="true">
+<product name="Eclipse Ultimate Product" uid="doug.eclipse.ultimate" application="org.eclipse.ui.ide.workbench" version="1.0.0" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -57,8 +57,6 @@
 
    <features>
       <feature id="doug.eclipse.ultimate"/>
-      <feature id="org.eclipse.epp.mpc"/>
-      <feature id="org.eclipse.epp.logging.aeri.feature"/>
 
       <feature id="org.eclipse.platform" installMode="root"/>
       <feature id="org.eclipse.platform.source" installMode="root"/>
@@ -68,6 +66,9 @@
 
       <feature id="org.eclipse.pde" installMode="root"/>
       <feature id="org.eclipse.e4.core.tools.feature" installMode="root"/>
+
+      <feature id="org.eclipse.epp.mpc"/>
+      <feature id="org.eclipse.epp.logging.aeri.feature"/>
 
       <feature id="org.eclipse.egit" installMode="root"/>
       <feature id="org.eclipse.egit.gitflow.feature" installMode="root"/>
@@ -178,6 +179,13 @@
       <feature id="com.mountainminds.eclemma.feature" installMode="root"/>
 
       <feature id="org.python.pydev.feature" installMode="root"/>
+
+      <feature id="angular2-feature" installMode="root"/>
+      <feature id="ts-feature" installMode="root"/>
+      <feature id="ts-jsdt-feature" installMode="root"/>
+      <feature id="ts-json-feature" installMode="root"/>
+      <feature id="ts-nodejs.embed-feature" installMode="root"/>
+      <feature id="ts-validation-feature" installMode="root"/>
    </features>
 
 </product>

@@ -18,6 +18,10 @@
       %license
    </license>
 
+   <requires>
+      <import feature="org.eclipse.cdt" version="9.1.0" match="compatible"/>
+   </requires>
+
    <plugin
          id="doug.eclipse.ultimate.application"
          download-size="0"

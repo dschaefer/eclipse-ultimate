@@ -6,7 +6,7 @@
 		<artifactId>eclipse-ultimate</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>product</artifactId>
+	<artifactId>installer</artifactId>
 	<packaging>eclipse-repository</packaging>
 
 	<build>
@@ -26,9 +26,9 @@
 				<configuration>
 					<products>
 						<product>
-							<id>doug.eclipse.ultimate</id>
+							<id>doug.eclipse.ultimate.installer</id>
 							<rootFolders>
-								<macosx>EclipseUltimate.app</macosx>
+								<macosx>Eclipse Ultimate.app</macosx>
 							</rootFolders>
 						</product>
 					</products>
